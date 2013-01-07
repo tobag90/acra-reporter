@@ -10,7 +10,7 @@ Please see that page - you need to change my "wintersacrareporter.appspot.com" w
 
 Login and signup to your app engine, then add the application package, add the following class to your android application, you will need to make up the strings.
 
-
+{{{
 @ReportsCrashes(formKey = "",
   formUri="https://[YOURAPPID].appspot.com/acrareport",
   formUriBasicAuthLogin = "username", 
@@ -40,6 +40,5 @@ public class CrashAppWrapper extends Application
       // ignore acra error
     }
   }
-
- 
 }
+}}}
