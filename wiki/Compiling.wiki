@@ -22,8 +22,10 @@ Web Toolkit - ensure you have GWT 2.5.0 selected.
 
 Then OK..
 
-Back to the project, it should build and show no errors, you can also try GWT compile project, it should give no errors.
+Back to the project, 
 
+Find the file Configuration.java edit this to suit your defaults.
 
+Then it should build and show no errors, you can also try GWT compile project, it should give no errors.
 
 
